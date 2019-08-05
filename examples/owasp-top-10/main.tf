@@ -3,8 +3,7 @@ module "owasp_top_10" {
 
   # Open the link above to see what the latest version is. Highly encouraged to use the latest version if possible.
 
-  source  = "traveloka/waf-owasp-top-10-rules/aws"
-  version = "0.1.1"
+  source = "../../"
 
   # For a better understanding of what are those parameters mean,
   # please read the description of each variable in the variables.tf file:
