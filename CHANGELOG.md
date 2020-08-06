@@ -1,3 +1,10 @@
+## v0.2.1 (Aug 06, 2020)
+
+NOTES:
+
+* Add .pre-commit-config.yaml to include terraform_fmt and terraform_docs
+* Update README.md to be informative
+
 ## v0.2.0 (Aug 5, 2019)
 
 NOTES:
