@@ -22,3 +22,4 @@ module "owasp_top_10" {
   csrf_expected_header           = "x-csrf-token"
   csrf_expected_size             = "36"
 }
+
