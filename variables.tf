@@ -6,6 +6,11 @@ variable "product_domain" {
 variable "service_name" {
   type        = string
   description = "The name of the service these resources belong to."
+
+  validation {
+    condition     = can(regex("^[a-zA-Z0-9]+$", var.service_name))
+    error_message = "Invalid value for service_name (must contain only alphanumeric characters)."
+  }
 }
 
 variable "environment" {
